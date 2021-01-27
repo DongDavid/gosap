@@ -32,6 +32,7 @@ package github.com/sap/gorfc: no Go files in /go/src/github.com/sap/gorfc
 mkdir /usr/local/sap
 mv nwrfcsdk/ /usr/local/sap/
 echo export SAPNWRFC_HOME=/usr/local/sap/nwrfcsdk >> /.bashrc
+source /root/.bashrc
 echo /usr/local/sap/nwrfcsdk/lib >> /etc/ld.so.conf.d/nwrfcsdk.conf
 ldconfig
 ```
